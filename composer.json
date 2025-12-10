@@ -1,0 +1,34 @@
+{
+    "name": "chatbridge/chatbridge-php-sdk",
+    "description": "Official PHP SDK for ChatBridge WhatsApp Broadcasting API",
+    "type": "library",
+    "version": "1.0.0",
+    "keywords": ["chatbridge", "whatsapp", "api", "sdk", "broadcasting"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ChatBridge Team",
+            "email": "support@chatbridge.cloud"
+        }
+    ],
+    "require": {
+        "php": "^7.4|^8.0",
+        "ext-json": "*",
+        "ext-curl": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0|^10.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "ChatBridge\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ChatBridge\\Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
